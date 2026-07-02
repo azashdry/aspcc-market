@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+}
+
+#loginPage{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+padding:20px;
+}
+
+.login-box{
+background:#fff;
+width:100%;
+max-width:380px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.logo{
+width:90px;
+height:90px;
+object-fit:contain;
+margin-bottom:10px;
+}
+
+.login-box h2{
+color:#0d47a1;
+margin-bottom:5px;
+}
+
+.login-box p{
+color:#555;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.login-box input{
+width:100%;
+padding:12px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:15px;
+}
+
+.login-box button{
+width:100%;
+padding:12px;
+background:#0d47a1;
+color:#fff;
+border:none;
+border-radius:8px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.login-box button:hover{
+background:#1565c0;
+}
+
+#msg{
+margin-top:10px;
+color:red;
+font-size:14px;
+}
+
+#dashboard{
+padding:15px;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#0d47a1;
+color:white;
+padding:15px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+header button{
+background:red;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.form{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+margin-bottom:20px;
+}
+
+.form input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+#saveBtn{
+width:100%;
+padding:12px;
+background:green;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+
+#productList{
+display:grid;
+gap:12px;
+}

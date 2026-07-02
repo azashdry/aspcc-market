@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ASPCC Admin Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="loginPage">
+
+<div class="login-box">
+
+<img src="logo.png" class="logo">
+
+<h2>ASPCC ADMIN</h2>
+
+<p>Aliko Dangote University of Science and Technology, Wudil</p>
+
+<input
+type="email"
+id="email"
+placeholder="Admin Email">
+
+<input
+type="password"
+id="password"
+placeholder="Password">
+
+<button id="loginBtn">
+LOGIN
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard" style="display:none;">
+
+<header>
+
+<h2>ASPCC Dashboard</h2>
+
+<button id="logoutBtn">
+Logout
+</button>
+
+</header>
+
+<section class="form">
+
+<input
+type="text"
+id="category"
+placeholder="Category">
+
+<input
+type="text"
+id="item"
+placeholder="Item Name">
+
+<input
+type="text"
+id="shop"
+placeholder="Shop Name">
+
+<input
+type="number"
+id="price"
+placeholder="Price">
+
+<input
+type="text"
+id="location"
+placeholder="Location">
+
+<input
+type="text"
+id="phone"
+placeholder="Phone Number">
+
+<button id="saveBtn">
+
+SAVE PRODUCT
+
+</button>
+
+</section>
+
+<h3>Products</h3>
+
+<div id="productList">
+
+</div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
